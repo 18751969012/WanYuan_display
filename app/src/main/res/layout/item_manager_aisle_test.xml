@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="#fff"
+    android:layout_marginTop="1dp"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <TextView
+        android:id="@+id/aisleID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:text="@string/aisleID"
+        android:textSize="35sp"/>
+    <TextView
+        android:id="@+id/aisle_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:text="@string/aisle_status"
+        android:textSize="35sp"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <Button
+        android:id="@+id/aisle_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/aisle_test"
+        android:textSize="35sp"
+        android:textColor="@android:color/holo_orange_dark" />
+</RelativeLayout>

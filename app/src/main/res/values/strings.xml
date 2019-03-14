@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WanYuan_display</string>
+
+    <string name="backtoshopping">返回购物</string>
+
+    <string name="backtodesktop">返回桌面</string>
+
+    <string name="login">登 陆</string>
+
+    <string name="login_control_panel">登 录 后 台</string>
+
+    <string name="binding">绑 定</string>
+
+    <string name="machine_binding">机 器 绑 定</string>
+
+    <string name="returnback">返回</string>
+
+    <string name="buy">购 物</string>
+
+    <string name="pay">付 款</string>
+
+
+
+
+    <string name="device_manager">设 置 管 理</string>
+
+    <string name="replenishment">补货管理</string>
+
+    <string name="aisle_setting">货道设置</string>
+
+    <string name="aisle_test">货道测试</string>
+
+    <string name="advanced_setting">高级设置</string>
+
+    <string name="device_state">设备状态</string>
+
+    <string name="machine_test">机器测试</string>
+
+    <string name="software_info">软件信息</string>
+
+    <string name="restart_App">重启应用</string>
+
+    <string name="aisle">货道</string>
+
+    <string name="aisleID">货道号</string>
+
+    <string name="oddAisleID">单数货道号</string>
+
+    <string name="evenAisleID">双数货道号</string>
+
+    <string name="relieve_merge">解除合并</string>
+
+    <string name="motor_type">电机类型</string>
+
+    <string name="aisle_state">货道状态</string>
+
+    <string name="one_spring">单弹簧</string>
+
+    <string name="two_spring">双弹簧</string>
+
+    <string name="narrow_track">窄履带</string>
+
+    <string name="wide_track">宽履带</string>
+
+    <string name="submit_save">提交/保存</string>
+
+    <string name="goods_list_refurbish">商品列表刷新</string>
+
+    <string name="please_select_good">请选择商品</string>
+
+    <string name="left_counter">左柜</string>
+
+    <string name="right_counter">右柜</string>
+
+    <string name="mid_counter">中柜</string>
+
+    <string name="left_fast_up">快升</string>
+
+    <string name="left_slow_up">慢升</string>
+
+    <string name="left_fast_down">快降</string>
+
+    <string name="left_slow_down">慢降</string>
+
+    <string name="left_stop">停止</string>
+
+    <string name="left_query_Y">查询当前格位</string>
+
+    <string name="left_please_input_grid_position">请输入码盘格位</string>
+
+    <string name="left_move_Y">云台移动</string>
+
+    <string name="left_open_out_door">开出货门</string>
+
+    <string name="left_close_out_door">关出货门</string>
+
+    <string name="left_x_motor_zheng">履带正转</string>
+
+    <string name="left_x_motor_fan">履带反转</string>
+
+    <string name="left_open_side_light">开边柜灯</string>
+
+    <string name="left_close_side_light">关边柜灯</string>
+
+    <string name="left_open_door_heat">开门加热</string>
+
+    <string name="left_close_door_heat">关门加热</string>
+
+    <string name="right_fast_up">快升</string>
+
+    <string name="right_slow_up">慢升</string>
+
+    <string name="right_fast_down">快降</string>
+
+    <string name="right_slow_down">慢降</string>
+
+    <string name="right_stop">停止</string>
+
+    <string name="right_query_Y">查询当前格位</string>
+
+    <string name="right_please_input_grid_position">请输入码盘格位</string>
+
+    <string name="right_move_Y">云台移动</string>
+
+    <string name="right_open_out_door">开出货门</string>
+
+    <string name="right_close_out_door">关出货门</string>
+
+    <string name="right_x_motor_zheng">履带正转</string>
+
+    <string name="right_x_motor_fan">履带反转</string>
+
+    <string name="right_open_side_light">开边柜灯</string>
+
+    <string name="right_close_side_light">关边柜灯</string>
+
+    <string name="right_open_door_heat">开门加热</string>
+
+    <string name="right_close_door_heat">关门加热</string>
+
+    <string name="open_get_door">开取货门</string>
+
+    <string name="close_get_door">关取货门</string>
+
+    <string name="open_center_light">开中柜灯</string>
+
+    <string name="close_center_light">关中柜灯</string>
+
+    <string name="delay_setting_ET">延时设定</string>
+
+    <string name="delay_setting_Bt">确认延时时间</string>
+
+    <string name="left_floot_position">左柜每层的码盘位置</string>
+
+    <string name="left_out_position">左出货口位置：</string>
+
+    <string name="left_temp_mode">左温度模式</string>
+
+    <string name="left_temp_setting">左温度设定</string>
+
+    <string name="right_floot_position">右柜每层的码盘位置</string>
+
+    <string name="right_out_position">右出货口位置：</string>
+
+    <string name="right_temp_mode">右温度模式</string>
+
+    <string name="right_temp_setting">右温度设定</string>
+
+    <!--<string name="save_floot_position">保存码盘位置</string>-->
+
+    <string name="save_setting">保存设定</string>
+
+    <string name="positionID_ET">货道ID</string>
+
+    <string name="humidity_limit_TV">根据湿度自动控制门加热</string>
+
+    <string name="humidity_limit_ET">湿度</string>
+
+    <string name="humidity_limit_BT_open">自动门加热开启</string>
+
+    <string name="humidity_limit_BT_close">自动门加热关闭</string>
+
+    <string name="left_cabinet_temp">边柜温度:</string>
+
+    <string name="left_cabinet_top_temp">边柜顶部温度:</string>
+
+    <string name="left_compressor_temp">压缩机温度:</string>
+
+    <string name="left_compressor_dcfan_state">压缩机直流风扇:</string>
+
+    <string name="left_cabinet_dcfan_state">边柜直流风扇:</string>
+
+    <string name="left_out_cabinet_temp">外部温度测量值:</string>
+
+    <string name="left_doorheat">边柜门加热:</string>
+
+    <string name="left_humidity">湿度测量值:</string>
+
+    <string name="left_light">照明灯:</string>
+
+    <string name="left_push_goods_raster">下货光栅:</string>
+
+    <string name="left_out_goods_raster">X轴出货光栅:</string>
+
+    <string name="left_out_goods_door">出货门开关:</string>
+
+    <string name="leftTempControlAlternatPower">温控交流电源:</string>
+
+    <string name="leftRefrigerationCompressorState">制冷压缩机:</string>
+
+    <string name="leftCompressorFanState">交流机风扇:</string>
+
+    <string name="leftHeatingWireState">制热电热丝:</string>
+
+    <string name="leftRecirculatAirFanState">循环风风扇:</string>
+
+    <string name="leftLiftPlatformDownSwitch">Y轴下止点:</string>
+
+    <string name="leftLiftPlatformUpSwitch">Y轴上止点:</string>
+
+    <string name="leftOutGoodsDoorDownSwitch">出货门下止点:</string>
+
+    <string name="leftOutGoodsDoorUpSwitch">出货门上止点:</string>
+
+    <string name="midGetGoodsDoorDownSwitch">取货门下止点:</string>
+
+    <string name="midGetGoodsDoorUpSwitch">取货门上止点:</string>
+
+    <string name="rightOutGoodsDoorDownSwitch">出货门下止点:</string>
+
+    <string name="rightOutGoodsDoorUpSwitch">出货门上止点:</string>
+
+    <string name="rightLiftPlatformDownSwitch">Y轴下止点:</string>
+
+    <string name="rightLiftPlatformUpSwitch">Y轴上止点:</string>
+
+    <string name="rightTempControlAlternatPower">温控交流电源:</string>
+
+    <string name="rightRefrigerationCompressorState">制冷压缩机:</string>
+
+    <string name="rightCompressorFanState">交流机风扇:</string>
+
+    <string name="rightHeatingWireState">制热电热丝:</string>
+
+    <string name="rightRecirculatAirFanState">循环风风扇:</string>
+
+    <string name="right_cabinet_temp">边柜温度:</string>
+
+    <string name="right_cabinet_top_temp">边柜顶部温度:</string>
+
+    <string name="right_compressor_temp">压缩机温度:</string>
+
+    <string name="right_compressor_dcfan_state">压缩机直流风扇:</string>
+
+    <string name="right_cabinet_dcfan_state">边柜直流风扇:</string>
+
+    <string name="right_out_cabinet_temp">外部温度测量值:</string>
+
+    <string name="right_doorheat">边柜门加热:</string>
+
+    <string name="right_humidity">湿度测量值:</string>
+
+    <string name="right_light">照明灯:</string>
+
+    <string name="right_push_goods_raster">下货光栅:</string>
+
+    <string name="right_out_goods_raster">X轴出货光栅:</string>
+
+    <string name="right_out_goods_door">出货门开关:</string>
+
+    <string name="mid_light">中间照明灯:</string>
+
+    <string name="mid_door_lock">中间门锁:</string>
+
+    <string name="mid_door">中间门开关:</string>
+
+    <string name="mid_get_goods_raster">中间取货光栅:</string>
+
+    <string name="mid_drop_goods_raster">中间落货光栅:</string>
+
+    <string name="mid_anti_pinch_hand_raster">中间防夹手光栅:</string>
+
+    <string name="mid_get_door">取货门开关:</string>
+
+    <string name="mid_drop_door">落货门开关:</string>
+
+    <string name="refresh_state">刷新状态</string>
+
+    <string name="stop_test">停止测试</string>
+
+    <string name="please_input_row">请输入行号</string>
+
+    <string name="test_by_row">按行测试</string>
+
+    <string name="please_input_column">请输入列号</string>input_positionID
+
+    <string name="please_input_positionID">请输入货道号</string>
+
+    <string name="test_by_column">按列测试</string>
+
+    <string name="simulation_outgoods">模拟出货</string>
+
+    <string name="test_all_aisle">一键循环测试</string>
+
+    <string name="aisle_status">货道状态</string>
+
+    <string name="Null">null</string>
+
+    <string name="left_floot_position_1">一:null</string>
+
+    <string name="left_floot_position_2">二:null</string>
+
+    <string name="left_floot_position_3">三:null</string>
+
+    <string name="left_floot_position_4">四:null</string>
+
+    <string name="left_floot_position_5">五:null</string>
+
+    <string name="left_floot_position_6">六:null</string>
+
+    <string name="right_floot_position_1">一:null</string>
+
+    <string name="right_floot_position_2">二:null</string>
+
+    <string name="right_floot_position_3">三:null</string>
+
+    <string name="right_floot_position_4">四:null</string>
+
+    <string name="right_floot_position_5">五:null</string>
+
+    <string name="right_floot_position_6">六:null</string>
+
+    <string name="auto_light_open_time">开启时间</string>
+
+    <string name="auto_light_close_time">关闭时间</string>
+
+    <string name="time_show">时间显示</string>
+
+    <string name="auto_light_open">自动控灯开启</string>
+
+    <string name="auto_light_close">自动控灯关闭</string>
+
+    <string name="temp_control_huicha">温控回差</string>
+
+    <string name="compressor_max_continuous_worktime">压缩机最长连续工作时间</string>
+
+    <string name="user_defined_open">自定义开启</string>
+
+    <string name="user_defined_close">自定义关闭</string>
+
+    <string name="start_simulation_pressure_test">开始仿真压测</string>
+
+    <string name="stop_simulation_pressure_test">停止仿真压测</string>
+
+    <string name="immediately_stop">立即停止</string>
+
+    <string name="clear_show">清除显示</string>
+
+    <string name="product_list">商 品 列 表</string>
+
+    <string name="empty">清 空</string>
+
+    <string name="product_picture">商 品 图 片</string>
+
+    <string name="product_name">商 品 名 称</string>
+
+    <string name="product_unit_price">商 品 单 价</string>
+
+    <string name="product_quantity">商 品 数 量</string>
+
+    <string name="subtotal">小计</string>
+
+    <string name="total_price">金额合计</string>
+
+    <string name="goods_detail">商品详情</string>
+
+    <string name="goodsDetail">商品明细</string>
+
+    <string name="goods">商品</string>
+
+    <string name="unitPrice">单价</string>
+
+    <string name="goodsQuantity">数量</string>
+
+    <string name="totalPrice">总价</string>
+
+    <string name="scan_code_to_pay">扫&#12288;&#12288;码&#12288;&#12288;付&#12288;&#12288;款</string>
+
+    <string name="weixin_pay">微 信 支 付</string>
+
+    <string name="alipay_pay">支 付 宝 支 付</string>
+
+    <string name="delet_all_local_adv">删除所有本地广告</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="board">主板号：</string>
+
+    <string name="serial">硬件序列号：</string>
+
+    <string name="brand">主板品牌：</string>
+
+    <string name="manufacturer">制造商：</string>
+
+    <string name="model">型号：</string>
+
+    <string name="sim">sim卡号：</string>
+
+    <string name="ipAddress">ipAddress：</string>
+
+    <string name="macAddress">macAddress：</string>
+
+    <string name="android_version">安卓版本：</string>
+
+    <string name="android_sdk">安卓SDK：</string>
+
+    <string name="appName">App名称：</string>
+
+    <string name="version">App版本号：</string>
+
+    <string name="screen_density">屏幕密度：</string>
+
+    <string name="screen_width">屏幕宽度：</string>
+
+    <string name="screen_height">屏幕高度：</string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name="wanyuan_drinks">饮料</string>
+
+    <string name="wanyuan_snacks">零食</string>
+
+    <string name="wanyuan_department">百货</string>
+
+    <string name="wanyuan_price">金额：</string>
+
+    <string name="wanyuan_specs">规格：</string>
+
+    <string name="wanyuan_huodao">货道：</string>
+
+    <string name="wanyuan_qrcodetext">扫描二维码</string>
+
+    <string name="wanyuan_paytype_weixin">微信支付</string>
+
+    <string name="wanyuan_paytype_alipay">支付宝</string>
+
+    <string name="wanyuan_shoppingCart">加入购物车</string>
+
+    <string name="wanyuan_beforePage">上一页</string>
+
+    <string name="wanyuan_afterPage">下一页</string>
+
+    <string name="wanyuan_huodaoSetting">商品补货</string>
+
+    <string name="wanyuan_huodaoTest">货道测试</string>
+
+    <string name="wanyuan_otherSetting">参数设置</string>
+
+    <string name="wanyuan_statistics">订单统计</string>
+
+    <string name="wanyuan_status">商品状态</string>
+
+    <string name="soft_version">软件版本</string>
+
+    <string name="hard_version">硬件版本</string>
+
+    <string name="iccid">SIM卡号</string>
+
+    <string name="serialport">串口状态</string>
+
+    <string name="no_text"></string>
+
+    <string name="test_one">单个测试</string>
+
+    <string name="test_layer">测试层</string>
+
+    <string name="test_all">全部测试</string>
+
+    <string name="test_stop">停止测试</string>
+
+    <string name="orderNo">订单尾号</string>
+
+    <string name="huodao">货道</string>
+
+    <string name="currentlayer">当前层号</string>
+
+    <string name="layer">层号</string>
+
+    <string name="goodsName">商品名称</string>
+
+    <string name="goodsImg">商品图片</string>
+
+    <string name="stock">库存</string>
+
+    <string name="capacity">容量</string>
+
+    <string name="payType">支付方式</string>
+
+    <string name="deliveryresult">出货结果</string>
+
+    <string name="dealtime">反馈时间</string>
+
+    <string name="price">价格</string>
+
+    <string name="status">货道状态</string>
+
+    <string name="alipay">支付宝</string>
+
+    <string name="weixin">微信</string>
+
+    <string name="cash">现金</string>
+
+    <string name="onqrcode">一码付</string>
+
+    <string name="initcash">0</string>
+
+    <string name="second">120 秒</string>
+
+    <string name="incash">已投入：</string>
+
+    <string name="cash_unit"> 元</string>
+
+    <string name="huodaotest">货道测试</string>
+
+    <string name="setting_elevator">升降机设置</string>
+
+    <string name="start_setting">开始设置</string>
+
+    <string name="start_elevator">升降机测试</string>
+
+    <string name="start_start">开始测试</string>
+
+    <string name="huodao_setting">货道设置</string>
+
+    <string name="infrared_setting">掉货检测</string>
+
+    <string name="count">次数</string>
+
+    <string name="addstock">+</string>
+
+    <string name="initnum">1</string>
+
+    <string name="substock">-</string>
+
+    <string name="delivery_success">出 货 完 成!</string>
+
+    <string name="delivery_fail">出 货 失 败!</string>
+
+    <string name="no_cash">找 零 不 足!</string>
+
+    <string name="normal">正常</string>
+
+    <string name="unopen">未启用</string>
+
+    <string name="error">故障</string>
+
+    <string name="unsubmit">未上送</string>
+
+    <string name="replenishfull">一键补满</string>
+
+    <string name="setting">机器设置</string>
+
+    <string name="current_temperature">当前温度(℃)</string>
+
+    <string name="upper_temperature">上限温度(℃)</string>
+
+    <string name="lower_temperature">下限温度(℃)</string>
+
+    <string name="temperature_unit">℃</string>
+
+    <string name="starttime">开始时间</string>
+
+    <string name="endtime">结束时间</string>
+
+    <string name="box_setting">主副柜设置</string>
+
+    <string name="sbId">设备编号</string>
+
+    <string name="clod_setting">空调设置</string>
+
+    <string name="vertical_elevator_setting">垂直电梯设置</string>
+
+    <string name="energy_setting">电梯使能</string>
+
+    <string name="vertical_elevator_direction_setting">电机方向</string>
+
+    <string name="vertical_elevator_speed_setting">速度设置</string>
+
+    <string name="vertical_elevator_high_setting">最高点码值</string>
+
+    <string name="horizontal_elevator_setting">水平电梯设置</string>
+
+    <string name="horizontal_elevator_direction_setting">出货口方向</string>
+
+    <string name="horizontal_elevator_swing_setting">左右摆动</string>
+
+    <string name="horizontal_elevator_time_setting">出货时间</string>
+
+    <string name="vertical_elevator_calibration_setting">垂直电梯标定</string>
+
+    <string name="layer_count">机器层数</string>
+
+    <string name="change">切换</string>
+
+
+
+    <string name="vertical_elevator_current_code_setting">当前码值</string>
+
+    <string name="merge_goods">合并商品</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
