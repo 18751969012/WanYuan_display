@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.njust.wanyuan_display.activity.LoginActivity"
+    android:background="@drawable/login_background">
+    <!--android:background="@drawable/login_background2"-->
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/login_control_panel"
+            android:textSize="50sp"
+            android:textColor="#ffffff"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dip"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="880dp"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <!--android:background="#ffc4c4c4"-->
+        <FrameLayout
+            android:id="@+id/username_layout"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/login_input_type"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/username"
+                style="@style/text_style_40_black"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:maxLength="50"
+                android:paddingLeft="95dp"
+                android:paddingRight="90dp"
+                android:background="#00000000">
+            </EditText>
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="25dp"
+                android:gravity="center"
+                android:layout_gravity="left|center_vertical"
+                android:background="@drawable/login_username"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/bt_username_clear"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/login_input_delete_normal"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/usercode_layout"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/login_input_type"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/password"
+                style="@style/text_style_40_black"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:maxLength="50"
+                android:paddingLeft="95dp"
+                android:paddingRight="90dp"
+                android:inputType="numberPassword"
+                android:background="#00000000">
+            </EditText>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="25dp"
+                android:gravity="center"
+                android:layout_gravity="left|center_vertical"
+                android:background="@drawable/login_password"
+                android:visibility="visible"/>
+
+
+            <Button
+                android:id="@+id/bt_pwd_eye"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="right|center_vertical"
+                android:background="@drawable/login_password_close"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/bt_pwd_clear"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="65dp"
+                android:layout_gravity="right|center_vertical"
+                android:background="@drawable/login_input_delete_normal"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/login_buttonstyle"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/return_shop"
+                android:layout_height="match_parent"
+                android:layout_width="300dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/login_buttonstyle"
+                android:text="@string/backtoshopping"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/return_desktop"
+                android:layout_height="match_parent"
+                android:layout_width="300dp"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/login_buttonstyle"
+                android:text="@string/backtodesktop"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <RelativeLayout android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <TextView android:text="@string/oddAisleID"
+                    android:textSize="35sp"
+                    android:textColor="#000"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView android:text="@string/evenAisleID"
+                    android:textSize="35sp"
+                    android:textColor="#000"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="200dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView android:text="@string/relieve_merge"
+                    android:textSize="35sp"
+                    android:textColor="#000"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="400dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/manager_aisle_merge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <EditText
+                    android:id="@+id/oddAisleID"
+                    style="@style/text_style_40_black"
+                    android:layout_centerInParent="true"
+                    android:layout_height="100dp"
+                    android:layout_width="250dp"
+                    android:inputType="number"
+                    android:hint="@string/oddAisleID"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <EditText
+                    android:id="@+id/evenAisleID"
+                    style="@style/text_style_40_black"
+                    android:layout_centerInParent="true"
+                    android:layout_height="100dp"
+                    android:layout_width="250dp"
+                    android:inputType="number"
+                    android:hint="@string/evenAisleID"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/merge"
+                    style="@style/text_style_40_black"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="合并" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
