@@ -1,0 +1,5 @@
+<application>
+  <component name="TaskSettings">
+    <option name="CONNECTION_TIMEOUT" value="10000" />
+  </component>
+</application>

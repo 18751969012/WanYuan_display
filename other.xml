@@ -1,0 +1,9 @@
+<application>
+  <component name="RefactoringSettings">
+    <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="mySvnCommandLine" value="F:\Android Studio\vm-wanyuan2\bin\svn.exe" />
+  </component>
+</application>
